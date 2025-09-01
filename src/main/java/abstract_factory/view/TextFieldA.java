@@ -7,6 +7,6 @@ public class TextFieldA extends TextField {
 
     @Override
     public void display() {
-        System.out.println("[ TextField: " + text + "]");
+        System.out.println("[ TextField: " + text + " ]");
     }
 }

@@ -29,13 +29,10 @@ public class Computer {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Processor: " + processor + "\n");
-        sb.append("RAM: " + ram + "\n");
-        sb.append("Hard Drive: " + hardDrive + "\n");
-        sb.append("Graphics Card: " + graphicsCard + "\n");
-        sb.append("Operating System: " + operatingSystem + "\n");
-
-        return sb.toString();
+        return "Processor: " + processor + "\n" +
+                "RAM: " + ram + "\n" +
+                "Hard Drive: " + hardDrive + "\n" +
+                "Graphics Card: " + graphicsCard + "\n" +
+                "Operating System: " + operatingSystem + "\n";
     }
 }

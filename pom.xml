@@ -51,7 +51,8 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>mediator.ChatApp</mainClass>
+<!--                    <mainClass>mediator.ChatApp</mainClass>-->
+                    <mainClass>command.PixelGUI</mainClass>
                 </configuration>
             </plugin>
         </plugins>
